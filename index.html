@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>monTest</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>INGGBAATEST-PRO</h1>
+      <section id="Bienvenue">
+        <h2>SOYEZ LES BIENVENUS!</h2>
+        <p>veuillez remplir les informations suivantes pour commencer le test.</p>
+        <form action="" id="userInfoForm">
+          <input type="text" name="username" placeholder="nom complet" required />
+          <input type="email" name="mail" placeholder=" adresse e-mail" required />
+          <input type="age"name="age" placeholder="âge entre 15 a 25 ans"  />
+          <button type="submit">Commencer le quiz</button>
+        </form>
+      </section>
+      <section id="sectionQuestion" style="display: none;">
+        <div style="display: flex; justify-content: flex-end; margin-bottom: 10px;">
+          <span id="timerDisplay" style="font-size: 1.2em; color: #f00457; font-weight: bold;">20:00</span>
+        </div>
+        <div id="question-container">
+          <h3 id="question"></h3>
+          <div id="options"></div>
+        </div>
+        <h4 id="feedback"></h4>
+        <button id="suivant">Suivant</button>
+      </section>
+      <section id="resultSection" style="display: none;">
+        <h2>Résultat du Quiz</h2>
+        <p id="resultText"></p>
+        <p id="userInfoDisplay"></p>
+      </section>
+    </div>
+    <script src="./javascript.js"></script>
+  </body>
+</html>

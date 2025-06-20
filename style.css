@@ -1,0 +1,120 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #334e0af0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input {
+    padding: 22px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #124e0e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: #942569dd;
+}
+
+.feedback-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#options {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.answerBtn {
+    cursor: pointer;
+}
+body {
+    background : lightgreen
+   }
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 13px;
+    background: #f00404;
+    backdrop-filter: blur(5px);
+}
+.timer-display{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#resultText{
+    font-size: 20px;
+    color: #d42117;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    background: #ccc;
+    border-radius: 20px;
+    
+    text-align: center;
+    margin-top: 20px;
+}
+#userInfoDisplay{
+    font-size: 18px;
+    color: #124e0e;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    background: #ccc;
+    border-radius: 20px;
+}
+
+
