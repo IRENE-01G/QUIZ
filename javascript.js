@@ -127,7 +127,7 @@ function startTimer() {
       afficherResultat();
       alert("Temps écoulé ! Le quiz est terminé.");
     }
-  }, 1000);
+  }, 1000 );
 }
 
 function updateTimerDisplay() {
@@ -216,9 +216,7 @@ function afficherResultat() {
   const userInfoDisplay = document.getElementById("userInfoDisplay");
   userInfoDisplay.innerText = `Nom: ${userName}, Email: ${userMail}`;
 }
-function finQuiz() {
-  alert("Merci d'avoir terminé le quiz ! À bientôt.");
-}
+
 
 
 

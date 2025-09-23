@@ -12,6 +12,7 @@
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+    background-color: #85ddec;
 }
 
 h1 {
@@ -20,7 +21,7 @@ h1 {
 
 h1, h2 {
     text-align: center;
-    color: #334e0af0;
+    color: #ffffff;
 }
 
 h2 {
@@ -54,7 +55,7 @@ button {
 }
 
 button:hover {
-    background-color: #942569dd;
+    background-color: #eeb824dd;
 }
 
 .feedback-container {
@@ -73,9 +74,7 @@ button:hover {
 .answerBtn {
     cursor: pointer;
 }
-body {
-    background : lightgreen
-   }
+
 .timer-container {
     display: flex;
     justify-content: center;
