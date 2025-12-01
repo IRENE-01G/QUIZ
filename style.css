@@ -12,7 +12,7 @@
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
-    background-color: #85ddec;
+    background-color: #1c7cfa;
 }
 
 h1 {
@@ -54,9 +54,7 @@ button {
     transition: background-color 0.5s ease-in-out;
 }
 
-button:hover {
-    background-color: #eeb824dd;
-}
+
 
 .feedback-container {
     margin-top: 20px;
